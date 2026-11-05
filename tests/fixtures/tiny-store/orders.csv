@@ -1,0 +1,5 @@
+order_id,order_date,customer_id,channel,sku,quantity
+O1,2026-07-01,C1,paid,A,1
+O2,2026-07-05,C1,organic,A,1
+O2,2026-07-05,C1,organic,B,2
+O3,2026-07-10,C2,organic,B,1

@@ -1,0 +1,11 @@
+{
+  "payment_fee_rate": 0.05,
+  "tax_rate": 0.10,
+  "average_discount_rate": 0.0,
+  "shipping_cost_per_order": 20.0,
+  "shipping_fee_charged": 10.0,
+  "free_shipping_threshold": 150.0,
+  "packaging_cost_per_order": 5.0,
+  "monthly_fixed_costs": 1000.0,
+  "monthly_marketing_spend": {"paid": 300.0, "organic": 0.0}
+}
