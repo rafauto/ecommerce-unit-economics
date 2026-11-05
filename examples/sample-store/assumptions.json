@@ -1,0 +1,17 @@
+{
+  "payment_fee_rate": 0.039,
+  "tax_rate": 0.06,
+  "average_discount_rate": 0.05,
+  "shipping_cost_per_order": 19.0,
+  "shipping_fee_charged": 12.9,
+  "free_shipping_threshold": 149.0,
+  "packaging_cost_per_order": 4.5,
+  "monthly_fixed_costs": 17000,
+  "monthly_marketing_spend": {
+    "paid_social": 12000,
+    "google_ads": 7500,
+    "influencers": 5000,
+    "organic": 0,
+    "email": 0
+  }
+}
