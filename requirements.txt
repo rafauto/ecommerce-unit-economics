@@ -1,0 +1,4 @@
+# Used only by the deployment platform (Streamlit Community Cloud).
+# For local development, install from pyproject.toml instead: pip install -e ".[dev]"
+.
+streamlit>=1.40
