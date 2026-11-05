@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecommerce-unit-economics"
+version = "0.1.0"
+description = "Unit economics calculator for e-commerce: AOV, product margin, CAC, LTV/CAC and break-even, with what-if scenarios."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Rafaela Uto" }]
+requires-python = ">=3.10"
+keywords = ["ecommerce", "unit-economics", "cac", "break-even", "product-management"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["pandas>=2.0"]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.40"]
+dev = ["pytest>=8.0", "ruff>=0.6", "streamlit>=1.40"]
+
+[project.scripts]
+unit-economics = "unit_economics.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

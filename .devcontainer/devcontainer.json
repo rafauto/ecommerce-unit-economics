@@ -1,0 +1,11 @@
+{
+  "name": "ecommerce-unit-economics",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install -e \".[dev]\"",
+  "forwardPorts": [8501],
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "charliermarsh.ruff"]
+    }
+  }
+}
